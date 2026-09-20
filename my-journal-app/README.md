@@ -1,11 +1,76 @@
-# Sample Snack app
+\# My Journal App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+A mobile journaling app built with React Native and Expo. Users can write text notes, record and play back voice notes, attach photos or files, and manage everything fully offline via a local SQLite database.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+
+\## Features
+
+\- Create, edit, and delete text notes with title, body, timestamp, and tags
+
+\- Record and play back audio notes
+
+\- Attach images (camera or gallery) and files
+
+\- Fully offline — all data stored locally in SQLite
+
+\- Settings screen with data management (clear all data) and a cloud sync toggle (backend not yet connected)
+
+
+
+\## Setup \& Run
+
+
+
+1\. Install dependencies:
+
+
+
+npm install
+
+
+
+2\. Start the Expo dev server:
+
+
+
+npx expo start
+
+
+
+3\. Scan the QR code with the \*\*Expo Go\*\* app on your phone, or press `a` / `i` in the terminal to launch an Android/iOS emulator.
+
+
+
+\## Libraries Used
+
+\- `expo-sqlite` — local database
+
+\- `expo-audio` — audio recording and playback
+
+\- `expo-image-picker` — camera and photo library access
+
+\- `expo-document-picker` — file picking
+
+\- `expo-file-system` (legacy API) — permanent file storage
+
+\- `expo-sharing` — opening/sharing attached files
+
+\- `@react-navigation/native-stack` — screen navigation
+
+\- `react-native-paper`, `@expo/vector-icons` — UI components
+
+
+
+\## Screenshots
+
+!\[Home](screenshot1.jpeg) | !\[Edit Note](screenshot2.jpeg) | !\[Note Detail](screenshot3.jpeg) 
+
+
+
+\## Technical Report
+
+See `Technical\_Report.pdf` in this repo for database structure, API details, and implementation notes.
+
