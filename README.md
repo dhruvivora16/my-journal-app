@@ -6,7 +6,7 @@ A mobile journaling app built with React Native and Expo. Users can write text n
 - Create, edit, and delete text notes with title, body, timestamp, and tags
 - Record and play back audio notes
 - Attach images (camera or gallery) and files
-- Fully offline — all data stored locally in SQLite
+- Fully offline - all data stored locally in SQLite
 - Settings screen with data management (clear all data) and a cloud sync toggle (backend not yet connected)
 
 ## Setup & Run
