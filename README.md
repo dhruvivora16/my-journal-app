@@ -32,7 +32,9 @@ npx expo start
 - `react-native-paper`, `@expo/vector-icons` — UI components
 
 ## Screenshots
-![Home](screenshot1.jpeg) | ![Edit Note](screenshot2.jpeg) | ![Note Detail](screenshot3.jpeg) 
+![Home Screen](demo_screenshots/screenshot_1.jpeg)
+![Edit Note](demo_screenshots/screenshot_2.jpeg)
+![Settings](demo_screenshots/screenshot_3.jpeg) 
 
 ## Technical Report
 See `Technical_Report.pdf` in this repo for database structure, API details, and implementation notes.
